@@ -1,0 +1,45 @@
+{
+  "kind": "dap2-grid",
+  "assets": [
+    {
+      "path": "short-padding.dods",
+      "bytes": 232,
+      "sha256": "7f388bcd53bd6160a16d50827408a778d54beb77bac55bb9ae5a9cc15da6ad78"
+    }
+  ],
+  "response": {
+    "path": "short-padding.dods",
+    "bytes": 232,
+    "sha256": "7f388bcd53bd6160a16d50827408a778d54beb77bac55bb9ae5a9cc15da6ad78"
+  },
+  "source_version": "array-v1",
+  "source_shape": {
+    "y": 4,
+    "x": 5
+  },
+  "slices": {
+    "y": [
+      0,
+      2,
+      2
+    ],
+    "x": [
+      1,
+      2,
+      3
+    ]
+  },
+  "variables": [
+    "g",
+    "note"
+  ],
+  "chunk_lengths": [
+    5,
+    2,
+    100,
+    1,
+    7,
+    500
+  ],
+  "max_elements": 10000
+}
