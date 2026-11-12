@@ -41,5 +41,25 @@
     7,
     500
   ],
-  "max_elements": 10000
+  "max_elements": 10000,
+  "variable_kinds": {
+    "g": {
+      "kind": "grid",
+      "base": "Float64",
+      "maps": [
+        [
+          "lat",
+          "y"
+        ],
+        [
+          "lon",
+          "x"
+        ]
+      ]
+    },
+    "note": {
+      "kind": "scalar",
+      "atom": "String"
+    }
+  }
 }
